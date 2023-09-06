@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.main-menu{
+    background: #F5F7FB;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    color:#293264;
+    letter-spacing: 0.06em;
+    font-family: 'Karla', sans-serif;
+    /* text-shadow: 0px 3px 7px #293264; */
+    font-weight: 700
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #293264;
+}
+.start-game-btn{
+    font-size: 14px;
+    margin-top: 1em;
+    font-family: 'Inter', sans-serif;
+    background: #4D5B9E;
+    height: 2.7em;
+    width: 10em;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.trivia{
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6em 8em;
+    background: #F5F7FB;
+    
+    
+}
+.question-container{
+    padding: 20px 0;
+    border-bottom: 2px solid #DBDEF0;
+}
+.options-container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 60vw;
+    
+}
+
+.normal{
+    text-align: center;
+    min-width: 65px;
+    max-height: 70px;
+    padding: 8px 17px;
+    border: solid 1px #4D5B9E;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700
+}
+.trivia .answer-checker{
+    margin-top: 1em;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    background: #4D5B9E;
+    height: 40px;
+    padding: 0 2em;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    
+}
+
+.correct{
+    background-color: #94D7A2;
+    border: none; 
+}
+
+.other-answer{
+    background-color: white;
+    color: grey; 
+    border: solid 1px grey;
+}
+.normal-selection{
+    background-color: #D6DBF5;
+    border: none
+}
+.incorrect{
+    color: grey;
+    background-color: #F8BCBC;
+    border: none; 
+}
+
+h3, h2{
+    color: #293264
+}
+
+h3{
+    margin: 40px 0 0 ; 
+    font-weight: 700;
+    font-size: 16px;
+}
